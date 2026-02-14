@@ -15,7 +15,7 @@ Full Stack Developer with experience building production-quality web application
 
 - **Resume**: [View Resume](https://drive.google.com/file/d/1dK-KqLE--tNUZeu1OJvQFfg2LA1ZR-Fr/view?usp=sharing)
 - **GitHub**: [github.com/sandeep2k01](https://github.com/sandeep2k01)
-- **Email**: sandeepdamera2001@gmail.com
+- **Email**: sandeepdamera596@gmail.com
 
 ---
 
