@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment files (contain secrets)
+.env
+backend/.env
+
+# Database files
+backend/data/
+
+# Build output
+frontend/dist/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
