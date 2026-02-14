@@ -18,8 +18,10 @@ const app = express();
 
 // --- Middleware ---
 
-// Security headers
-app.use(helmet());
+// Security headers - Relax CSP in production so bundled assets can load
+app.use(helmet({
+    contentSecurityPolicy: false,
+}));
 
 // CORS — allows frontend to communicate with backend
 app.use(cors({
