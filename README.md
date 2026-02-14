@@ -2,6 +2,8 @@
 
 A modular AI workflow engine that processes text through sequential LLM-powered steps. Built as a technical assessment for the Full Stack Developer (AI-Native Workflows) role.
 
+**🚀 [Live Demo](https://workflow-builder-lite-ox66.onrender.com)**
+
 ---
 
 ## What It Does
@@ -91,7 +93,7 @@ Users can:
 
 ```bash
 # Clone the repository
-git clone <repo-url>
+git clone https://github.com/sandeep2k01/workflow-builder-lite.git
 cd workflow-builder-lite
 
 # Backend
