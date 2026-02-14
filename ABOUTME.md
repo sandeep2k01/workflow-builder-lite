@@ -13,7 +13,7 @@ Full Stack Developer with experience building production-quality web application
 
 ### Links
 
-- **Resume**: [Link to resume]
+- **Resume**: [View Resume](https://drive.google.com/file/d/1dK-KqLE--tNUZeu1OJvQFfg2LA1ZR-Fr/view?usp=sharing)
 - **GitHub**: [github.com/sandeepdomera](https://github.com/sandeepdomera)
 - **Email**: sandeepdomera@gmail.com
 

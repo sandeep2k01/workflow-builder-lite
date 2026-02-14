@@ -44,9 +44,9 @@ export default function StatusPage() {
     }
 
     const components = [
-        { key: 'backend', label: 'Backend Server', description: 'Express.js API server' },
-        { key: 'database', label: 'Database', description: 'SQLite storage' },
-        { key: 'llm', label: 'LLM Service', description: 'Groq API connection' },
+        { key: 'backend', label: 'Backend Server', description: 'Express.js API server', okText: '● Running', errorText: '● Not Running' },
+        { key: 'database', label: 'Database', description: 'SQLite storage', okText: '● Connected', errorText: '● Disconnected' },
+        { key: 'llm', label: 'LLM Service', description: 'Groq API connection', okText: '● Connected', errorText: '● Not Responding' },
     ];
 
     return (
@@ -71,7 +71,7 @@ export default function StatusPage() {
             )}
 
             <div className="health-grid">
-                {components.map(({ key, label, description }) => {
+                {components.map(({ key, label, description, okText, errorText }) => {
                     const status = health?.[key] || 'error';
                     return (
                         <div key={key} className="health-card">
@@ -80,7 +80,7 @@ export default function StatusPage() {
                                 <div className="health-label">{label}</div>
                                 <div className="health-status">{description}</div>
                                 <span className={`status-badge ${status === 'ok' ? 'ok' : 'error'}`}>
-                                    {status === 'ok' ? '● Operational' : '● Down'}
+                                    {status === 'ok' ? okText : errorText}
                                 </span>
                             </div>
                         </div>

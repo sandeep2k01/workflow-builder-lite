@@ -169,7 +169,7 @@ POST /api/workflow/run
 |-------|-----------|-----|
 | Frontend | React 18 + Vite | Modern, fast dev experience |
 | Backend | Node.js + Express | Required by job spec, well-suited for I/O-heavy workloads |
-| Database | SQLite (better-sqlite3) | Zero-config, Docker-friendly, sufficient for 5-run history |
+| Database | SQLite (sql.js) | Pure JS, zero native deps, Docker-friendly, sufficient for 5-run history |
 | LLM | Groq (LLaMA 3.1 8B) | Fast inference, free tier, easy API |
 | Styling | Vanilla CSS | Full control, no framework overhead |
 

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { api } from '../services/api';
 import ResultsView from './ResultsView';
 
@@ -163,6 +164,14 @@ export default function WorkflowBuilder() {
 
             {/* Results */}
             {result && <ResultsView result={result} />}
+
+            {/* Workflow History Link */}
+            <div className="section" style={{ borderTop: '1px solid var(--color-border)', paddingTop: 'var(--space-lg)', marginTop: 'var(--space-lg)' }}>
+                <span style={{ fontWeight: 600, fontSize: '1rem' }}>Workflow History</span>
+                <Link to="/history" style={{ marginLeft: 'var(--space-sm)', color: 'var(--color-primary)', textDecoration: 'none', fontWeight: 500 }}>
+                    ▶ View past runs
+                </Link>
+            </div>
         </div>
     );
 }
