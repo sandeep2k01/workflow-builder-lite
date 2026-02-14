@@ -1,6 +1,6 @@
 # About Me
 
-## Sandeep Domera
+## Sandeep Damera
 
 Full Stack Developer with experience building production-quality web applications using React, Node.js, and modern JavaScript frameworks. Comfortable working with AI-native tools and integrating LLM capabilities into application architectures.
 
@@ -14,8 +14,8 @@ Full Stack Developer with experience building production-quality web application
 ### Links
 
 - **Resume**: [View Resume](https://drive.google.com/file/d/1dK-KqLE--tNUZeu1OJvQFfg2LA1ZR-Fr/view?usp=sharing)
-- **GitHub**: [github.com/sandeepdomera](https://github.com/sandeepdomera)
-- **Email**: sandeepdomera@gmail.com
+- **GitHub**: [github.com/sandeep2k01](https://github.com/sandeep2k01)
+- **Email**: sandeepdamera2001@gmail.com
 
 ---
 
